@@ -4,7 +4,7 @@ import styles from './footer.module.css'
 
 const Footer = () => {
   return (
-    <section>
+    <section className={styles.footer}>
     <section className={styles.footerContainer}>
 
       <div className={styles.footerLogo}>
@@ -27,9 +27,9 @@ const Footer = () => {
         <h3>Contato</h3>
 
         <ul>
-          <li><Image width={14} height={18} src='/mail.png' /> <a href='mailto:contato@codecrafthub.com.br"'>contato@codecrafthub.com.br</a></li>
-          <li><Image width={14} height={18} src='/whats.png' /> <a href="https://wa.me/85991948378">+55 (85) 99194-8378</a></li>
-          <li><Image width={14} height={18} src='/whats.png' /> <a href="https://wa.me/81988693599">+55 (81) 98869-3599</a></li>
+          <li><Image width={14} height={18} src='/mail.png' /> <a href='mailto:contato@codecrafthub.com.br"' target="_blank">contato@codecrafthub.com.br</a></li>
+          <li><Image width={14} height={18} src='/whats.png' /> <a href="https://wa.me/+5585991948378" target="_blank">(85) 99194-8378</a></li>
+          <li><Image width={14} height={18} src='/whats.png' /> <a href="https://wa.me/+5581988693599" target="_blank">(81) 98869-3599</a></li>
         </ul>
 
 

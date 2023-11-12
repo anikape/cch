@@ -12,9 +12,13 @@ const About = () => {
           <h1>Inovação Tecnológica para o seu Negócio</h1>
           <p>Transforme a sua visão em realidade com a nossa experiência em desenvolvimento web e design.</p>
 
-          <button className={styles.button1}>Quem Somos</button>
+          <div className={styles.buttons}>
+          <a href='#' className={styles.button1}>Quem Somos</a>
           
-          <button className={styles.button2}>Contato</button>
+          <a href='#' className={styles.button2}>Contato</a>
+
+          </div>
+         
 
         </div>
 

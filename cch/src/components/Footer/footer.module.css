@@ -5,12 +5,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   height: 262px;
   justify-content: center;
-  margin: 0 auto;
+  padding-left: 10rem;
+  width:100%
 }
 
-.footerLogo{
-  margin-left: 6rem;
-}
+
 
 .footerLogo p{
   color: #0E243B;
@@ -58,11 +57,12 @@
 
 .footerContact h3{
   color: #0E243B;
-font-family: Roboto;
-font-size: 24px;
-font-weight: 700;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
   width: 108px;
-height: 31px;
+  height: 31px;
+  padding-bottom: 2em;
 }
 
 .footerContact li{
@@ -74,12 +74,13 @@ height: 31px;
 
 .footerContact a{
   color: #0E243B;
-font-family: Roboto;
-font-size: 13px;
-font-weight: 400;
-letter-spacing: 1.56px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.56px;
   width: 220px;
   height: 25px;
+  padding-left: 1rem;
 }
 
 .footerSocials{

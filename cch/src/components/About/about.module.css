@@ -21,6 +21,10 @@
   height: 543px;
 
 }
+.aboutText {
+  display: flex;
+  flex-direction: column;
+}
 
 .aboutText h1{
   color: #0E243B;
@@ -42,9 +46,13 @@ height: 62px;
 padding: 2em 0 5rem 0;
 }
 
-
+.buttons{
+  display: flex;
+  margin: 0 auto;
+}
 
 .button1{
+  display: flex;
   border: none;
   border-radius: 47px;
 background: #0E243B;
@@ -56,10 +64,13 @@ font-weight: 700;
 text-transform: uppercase;
   width: 167px;
   height: 42px;
-  margin-left: 2rem;
+   margin-right: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .button2{
+  display: flex;
   border: none;
   border-radius: 47px;
 background: #D9D9D9;
@@ -71,5 +82,7 @@ font-weight: 700;
 text-transform: uppercase;
   width: 167px;
 height: 42px;
-margin-left: 2rem;
+
+align-items: center;
+  justify-content: center;
 }
