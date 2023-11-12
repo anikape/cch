@@ -9,9 +9,7 @@ export default function Home() {
     
       <div className={styles.description}>
         <Header />
-        <p>
-          Nós Vamos se ricassss
-        </p>
+       
         <About />
        <Footer />
       </div>
