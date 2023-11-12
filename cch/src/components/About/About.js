@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         <div className={styles.aboutLogo}>
-            <Image src="/logo.png" width={418} height={435} />
+            <Image className={styles.logoImage} src="/logo.png" width={418} height={435} />
         </div>
 
 

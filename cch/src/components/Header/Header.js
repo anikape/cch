@@ -31,6 +31,7 @@ const Header = () => {
         <Image className={styles.headerLupa}  src="/lupa.png" alt="Ícone de Pesquisa" width={20} height={20} />
         </button>
       </nav>
+      
     </div>
   );
 };

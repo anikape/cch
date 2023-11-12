@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Navbar from 'react-bootstrap/Navbar';
 import styles from './page.module.css'
 import Header from '@/components/Header/Header'
 import About from '@/components/About/About'

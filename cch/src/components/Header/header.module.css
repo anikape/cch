@@ -10,9 +10,14 @@
 
 .headerNav {
   display: flex;
-  margin-left: 32rem;
-  width: 1350px;
+  justify-content: space-between;
   align-items: center;
+}
+
+.headerNav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .headerNav ul {
@@ -56,4 +61,29 @@
 
 .headerLupa{
   border: none;
+}
+
+@media (max-width: 480px) {
+  .headerNav {
+    /* flex-direction: column;
+    align-items: space-between; */
+    margin-right: 2rem
+  }
+
+  .headerNav ul {
+    
+    gap: 6px;
+  
+
+  }
+
+  .headerNav a{
+    font-size:12px;
+    text-align: center;
+  }
+
+  .headerInput,
+  .headerButton {
+   display: none;
+  }
 }

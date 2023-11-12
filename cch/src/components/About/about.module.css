@@ -86,3 +86,51 @@ height: 42px;
 align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 480px) {
+  .aboutContainer{
+    width: 100%;
+  }
+
+  .aboutInovation{
+    flex-direction: column;
+    height: 750px;
+    width: 95%;
+  }
+
+  .aboutText{
+    padding-top: 3rem;
+    }
+
+  .aboutText h1{
+      font-size: 28px;
+      width: 286px;
+      height: 30px;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 2rem;
+  }
+
+  .aboutText p{
+    font-size: 27px;
+    width: 325px;
+    height:50px;
+    text-align: center;
+    padding-bottom: -10em;
+  }
+
+  .buttons{
+    padding-top:10rem;
+    flex-direction: column;
+    gap:2rem;
+  }
+
+
+  .logoImage{
+    width:198px;
+   height:198px;
+   padding-top: 2em;
+   
+  }
+
+}
